@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/smallStyle.css" rel="stylesheet">
+    <link href="assets/css/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B&family=PT+Sans&family=Roboto+Slab&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Noto+Sans+Linear+B&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="personalInfo">
+            <p class="info">BOUCHETARD</p>
+            <p class="info">Julian</p>
+            <p class="info">26 Décembre 2001</p>
+            <p class="info">julian.bouchetard@gmail.com</p>
+            <p class="info">07 82 59 96 52</p>
+            <p><a href="www.linkedin.com/in/julian-bouchetard7874" class="info">Linkedin</a></p>
+            <p><a href="https://github.com/jbouchetard?tab=repositories" class="info">Mon Github</a></p>
+        </section>
+        <div class="title">
+            <h1>Développeur web et web mobile</h1>
+        </div>
+    </header>
+    <main class="formulaire">
+        <form method="post">
+            <input type="text" name="name" id="name" class="champ">
+            <label for="name" class="titleForm">Votre nom :</label>
+            <br>
+            <input type="text" name="firstname" id="firstName" class="champ">
+            <label for="firstName" class="titleForm">Votre prénom :</label>
+            <br>
+            <input type="email" name="email" id="email" class="champ">
+            <label for="email" class="titleForm">Votre email :</label>
+            <br>
+            <input type="tel" name="phone" id="phoneNumber" class="champ">
+            <label for="phoneNumber" class="titleForm">Votre numéro de téléphone :</label>
+            <br>
+            <select name="subject" id="subject" class="champ">
+                <option value="1">Un premier sujet</option>
+                <option value="2">Un deuxième sujet</option>
+                <option value="3">Un troisème sujet</option>
+                <option value="4">Un quatrième sujet</option>
+            </select>
+            <label for="subject" class="titleForm">Votre sujet</label>
+            <br>
+            <textarea id="message"></textarea>
+            <label for="message" class="titleForm">Votre message</label>
+            <br>
+            <input type="submit" name="submit" class="button">
+            <input type="reset" name="reset" class="button">
+        </form>
+    </main>
+    <footer>
+        <div class="contact">
+            <a href="index.html">Retourner au CV</a>
+        </div>
+    </footer>
+</body>
+</html>
